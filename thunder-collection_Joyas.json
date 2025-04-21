@@ -1,0 +1,108 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Joyas",
+    "collectionId": "4318e184-9706-4ebc-89ad-291b642bf46a",
+    "dateExported": "2025-04-21T01:19:28.961Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a71c66f4-e2f4-461a-8109-927da36503fc",
+            "colId": "4318e184-9706-4ebc-89ad-291b642bf46a",
+            "containerId": "",
+            "name": "GetLimit_A",
+            "url": "http://localhost:3000/joyas?limits=3&page=2&order_by=stock_ASC",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-04-19T22:33:42.646Z",
+            "modified": "2025-04-21T00:41:30.453Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "limits",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "page",
+                    "value": "2",
+                    "isPath": false
+                },
+                {
+                    "name": "order_by",
+                    "value": "stock_ASC",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "176b80b5-984c-45b5-95e6-55b2b1b04e06",
+            "colId": "4318e184-9706-4ebc-89ad-291b642bf46a",
+            "containerId": "",
+            "name": "Get_Joyas",
+            "url": "http://localhost:3000/joyas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-04-21T01:12:03.977Z",
+            "modified": "2025-04-21T01:12:51.544Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "8d7796cc-d314-45e1-8689-14e89c66c3b9",
+            "colId": "4318e184-9706-4ebc-89ad-291b642bf46a",
+            "containerId": "",
+            "name": "Get_Joyas_Filtradas",
+            "url": "http://localhost:3000/joyas/filtros?precio_min=5000&precio_max=39000&categoria=aros&metal=oro",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-04-19T23:17:24.967Z",
+            "modified": "2025-04-20T21:39:40.280Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "precio_min",
+                    "value": "5000",
+                    "isPath": false
+                },
+                {
+                    "name": "precio_max",
+                    "value": "39000",
+                    "isPath": false
+                },
+                {
+                    "name": "categoria",
+                    "value": "aros",
+                    "isPath": false
+                },
+                {
+                    "name": "metal",
+                    "value": "oro",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "A7wzun3EtJVsfrHEBDxbr905x98kIR8tU0ax2yo367cM-BGbwDsb0YGGNR6Cg9ctejN6hSUPI_Zfdw3pfqDH7w"
+}
